@@ -1,0 +1,6 @@
+{
+    "port":9000,
+    "serviceName":"MicroService",
+    "mongodb":"mongodb://localhost/rest",
+    "isDebug":true
+}
