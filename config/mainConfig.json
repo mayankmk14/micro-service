@@ -1,6 +1,10 @@
 {
-    "port":9000,
-    "serviceName":"MicroService",
-    "mongodb":"mongodb://localhost/rest",
-    "isDebug":true
+    "port": 9000,
+    "serviceName": "MicroService",
+    "mongodb": "mongodb://localhost/rest",
+    "isDebug": true,
+    "auth": {
+        "appSecret": "Lets secure the app with this secret",
+        "expiresIn": 86400
+    }
 }
