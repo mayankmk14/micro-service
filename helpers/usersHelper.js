@@ -32,7 +32,10 @@ var authorizeUser = (loginPayload, cb) => {
         try {
 
             loginUserResponse = JSON.parse(JSON.stringify(loginUserResponse))
-
+            loginUserResponse.access = {
+                read : true,
+                write : false
+            }
         } catch (error) {
             console.log("ERROR in READ USER", error)
         }
